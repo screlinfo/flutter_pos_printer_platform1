@@ -1,5 +1,5 @@
-#ifndef FLUTTER_PLUGIN_FLUTTER_POS_PRINTER_PLATFORM_PLUGIN_H_
-#define FLUTTER_PLUGIN_FLUTTER_POS_PRINTER_PLATFORM_PLUGIN_H_
+#ifndef FLUTTER_PLUGIN_FLUTTER_POS_PRINTER_PLATFORM1_PLUGIN_C_API_H_
+#define FLUTTER_PLUGIN_FLUTTER_POS_PRINTER_PLATFORM1_PLUGIN_C_API_H_
 
 #include <flutter_plugin_registrar.h>
 
@@ -13,11 +13,11 @@
 extern "C" {
 #endif
 
-FLUTTER_PLUGIN_EXPORT void FlutterPosPrinterPlatformPluginRegisterWithRegistrar(
+FLUTTER_PLUGIN_EXPORT void FlutterPosPrinterPlatform1PluginCApiRegisterWithRegistrar(
     FlutterDesktopPluginRegistrarRef registrar);
 
 #if defined(__cplusplus)
 }  // extern "C"
 #endif
 
-#endif  // FLUTTER_PLUGIN_FLUTTER_POS_PRINTER_PLATFORM_PLUGIN_C_API_H_
+#endif  // FLUTTER_PLUGIN_FLUTTER_POS_PRINTER_PLATFORM1_PLUGIN_C_API_H_
